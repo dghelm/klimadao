@@ -35,6 +35,7 @@ export const PageHead = (props: PageHeadProps) => {
       <meta property="og:type" content="website" />
       <link rel="icon" href="/favicon.png" />
       <meta property="og:locale" content="en" />
+      <link rel="manifest" href="/manifest.json"/>
     </Head>
   );
 };

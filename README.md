@@ -1,4 +1,7 @@
+[![Add to Homescreen](https://img.shields.io/badge/Skynet-Add%20To%20Homescreen-00c65e?logo=skynet&labelColor=0d0d0d)](https://homescreen.hns.siasky.net/#/skylink/AQC3d8ML3sTj7_HWS4FlVZRHc4Nsy2TVEUgg7R3eui1Q6g)
+
 # Summary
+
 This repo contains 3 packages: `@klimadao/site`, `@klimadao/app` and `@klimadao/lib`.
 
 `@klimadao/site` -> klimadao.finance homepage. In the future, we can add the docs and blog as well.
@@ -8,7 +11,9 @@ This repo contains 3 packages: `@klimadao/site`, `@klimadao/app` and `@klimadao/
 `@klimadao/lib` -> A shared component and theme library. For now, just a set of resources shared by the above two apps. In the future, this can be extended and published on NPM as a component library for use in other community projects.
 
 # Getting Started
+
 ## Requirements
+
 Take note, this repo utilizes newer features from Node, NPM and the upcoming release of Typescript.
 
 - Node >= v16.x
@@ -18,10 +23,12 @@ Take note, this repo utilizes newer features from Node, NPM and the upcoming rel
 - VSCode [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ## Install dependencies
-From the `klimadao/` root folder, *not* from individual packages:
+
+From the `klimadao/` root folder, _not_ from individual packages:
 `npm install`
 
 ## Develop
+
 A set of NPM Workspace commands are provided, and can be run from the root folder.
 
 `npm run dev-site`: run the website on localhost:3000
@@ -31,5 +38,6 @@ A set of NPM Workspace commands are provided, and can be run from the root folde
 `npm run dev-lib`: Watch for changes in `@klimadao/lib` and recompile on save. Alternatively, run `npm run build-lib` to compile once (this is already done automatically for the above two commands).
 
 # Contribution Guide
+
 Coming Soon.
 The GitHub Issues board should be our source-of-truth and where most engineering discussion takes place.
