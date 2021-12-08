@@ -1,0 +1,15 @@
+{
+	"short_name": "KlimaDAO UNOFFICIAL",
+	"start_url": ".",
+	"homepage": "./",
+	"name": "KlimaDAO UNOFFICIAL",
+	"description": "Drive climate action and earn rewards with a carbon-backed, algorithmic digital currency.",
+	"icons": [
+	{
+	"src": "favicon.png",
+	"type": "image/png",
+	"sizes": "83x83"
+	}
+	],
+	"skylink": ""
+}
